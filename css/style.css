@@ -1,0 +1,192 @@
+/* Show all borders */
+
+/* {
+	border: red 1px solid;
+}*/
+
+/* Main */
+
+body {
+	background: url('../img/triforce-triangles.jpg') repeat;
+	background-position: left top;
+	overflow-x: hidden;
+    
+    padding: 0;
+    margin: 0;
+}
+
+img, p {
+	color: #FFFFFF;
+}
+
+.horiBar {
+	position: relative;
+	width: 100%;
+	height: 5px;
+
+	background-color: #BA954B;
+
+	margin: 0 -9999rem;
+	padding: 0.25rem 9999rem;
+}
+
+.horiBar:nth-child(5){
+    height: 1px;
+    
+    padding: 0;
+    margin: 50px 0 0 0;
+}
+
+/*** Header Section ***/
+
+#Ninty {
+	height: 32px;
+    
+	background-color: #FFFFFF;
+}
+
+#Ninty img {
+	position: relative;
+	top: 20%;
+	left: 12.5%;
+}
+
+#navbar {
+	position: relative;
+
+	background-color: #E8E8E8;
+    border-top: 1px solid #EFEFEF;
+    border-left: 1px solid #EFEFEF;
+    border-right: 1px solid #A0A0A0;
+    border-bottom: 1px solid #A0A0A0;
+	height: 27px;
+}
+
+#navbar ul li {
+	display: inline-block;
+
+	padding-right: 120px;
+}
+
+#navbar ul li:last-child {
+    padding-right: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ul {
+	position: relative;
+	bottom: 10px;
+
+	text-align: center;
+}
+
+/* Slideshow Section */
+
+#ssTop {
+	height: 35px;
+}
+
+#ssTop #title {
+	position: relative;
+	top: 10px;
+
+	text-align: center;
+}
+
+#ssMid {
+	height: 490px;
+	background-color: #000000;
+}
+
+/*** ---Game Gallery Section--- ***/
+
+#gallery {
+	width: 53%;
+	min-width: 1022px;
+
+	position: relative;
+
+	margin: 50px auto 0 auto;
+}
+
+.gameContainer {
+	margin: auto;
+    padding: 0 20px;
+    width: 95%;
+}
+
+.game:first-child {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.game {
+	background: url('../img/zelda-com-button.jpg') no-repeat;
+	display: inline-block;
+    
+    height: 142px;
+    
+    border: 1px solid #FFECC6;
+	margin-left: 8px;
+	margin-top: 1em;
+}
+
+/* Footer */
+
+#footer {
+    height: 300px;
+    margin: 0 -9999em;
+    padding: 0.5px 9999em;
+    
+    background-color: #000;
+}
+
+#logos {
+    width: 50%;
+    margin: 17px auto 0 auto;
+    
+    text-align: center;
+}
+
+img[alt="NintendoLogo"] {
+    display: inline;
+}
+
+#socialicons {
+    position: relative;
+    top: 30px;
+    display: inline-block;
+}
+
+#socialicons p {
+    margin: 0;
+}
+
+img[alt="ESRBIcon"] {
+    position: relative;
+    top: 20px;
+    
+    padding-left: 10px;
+}
+
+#footer > p {
+    position: relative;
+    top: 60px;
+    
+    margin: 0 0 55px 0;
+    
+    text-align: center;
+}
+
+#footer > p:nth-child(3) {
+    margin: 0;
+}
+
+#footer > p:nth-child(3) a {
+    display: inline-block;
+    color: #00f;
+}
